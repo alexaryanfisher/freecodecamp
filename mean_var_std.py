@@ -17,7 +17,7 @@ def calculate(list):
 
     return calculations
 
-print("Please input nine numbers in the following format: 0 1 2 3)
+print("Please input nine numbers in the following format: 0 1 2 3")
 numbers = input()
 list = [int(x) for x in input().split()]
 results = calculate(list)
